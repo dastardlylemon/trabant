@@ -2,6 +2,7 @@ var util = require('util');
 var fs = require('fs');
 var readline = require('readline');
 var request = require('request');
+var table = require('easy-table');
 var cheerio = require('cheerio');
 
 var rl = readline.createInterface(process.stdin, process.stdout);
